@@ -1,0 +1,22 @@
+# ninja log v5
+1	154	1705700677788247153	CMakeFiles/sorting_algorithms.dir/print_list.c.o	1dbcf4508277bd7e
+2	156	1705700677788211951	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+0	157	1705700677788218093	CMakeFiles/sorting_algorithms.dir/print_array.c.o	cf626f0c7cd121ec
+2	170	1705700677807875734	CMakeFiles/sorting_algorithms.dir/tests/0-main.c.o	3bc8b449aed976b1
+170	293	1705700677929779389	sorting_algorithms	98da9a2dc80620a4
+1	66	1705700701577108638	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+66	146	1705700701659973135	sorting_algorithms	98da9a2dc80620a4
+1	59	1705700854072755276	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+60	160	1705700854175469203	sorting_algorithms	98da9a2dc80620a4
+1	55	1705701022557631184	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+55	148	1705701022645015746	sorting_algorithms	98da9a2dc80620a4
+1	57	1705701164172766372	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+57	144	1705701164261288955	sorting_algorithms	98da9a2dc80620a4
+2	122	1705701300308319364	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+123	198	1705701300385830188	sorting_algorithms	98da9a2dc80620a4
+1	61	1705701312802201391	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+62	142	1705701312878967060	sorting_algorithms	98da9a2dc80620a4
+1	55	1705701324303616256	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+55	158	1705701324405738991	sorting_algorithms	98da9a2dc80620a4
+1	58	1705702096054031137	CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o	a7fdbfcca1d6a466
+58	144	1705702096138573319	sorting_algorithms	98da9a2dc80620a4
