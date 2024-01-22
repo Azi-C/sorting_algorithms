@@ -37,7 +37,7 @@ listint_t *create_listint(const int *array, size_t size)
  *
  * Return: Always 0
  */
-int main(void)
+int main2(void)
 {
     listint_t *list;
     int array[] = {19, 48, 99, 71, 13, 52, 96, 73, 86, 7};

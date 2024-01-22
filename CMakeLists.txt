@@ -12,4 +12,6 @@ add_executable(sorting_algorithms
         0-bubble_sort.c
         tests/0-main.c
         1-insertion_sort_list.c
-        tests/1-main.c)
+        tests/1-main.c
+        2-selection_sort.c
+        tests/2-main.c)
