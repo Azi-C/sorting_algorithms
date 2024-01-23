@@ -1,4 +1,5 @@
 #include "sort.h"
+#include <stdlib.h>
 
 /**
  * max_num - max nb in an array
