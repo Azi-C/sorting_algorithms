@@ -105,6 +105,13 @@ build CMakeFiles/sorting_algorithms.dir/tests/2-main.c.o: C_COMPILER__sorting_al
   OBJECT_DIR = CMakeFiles/sorting_algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/sorting_algorithms.dir/tests
 
+build CMakeFiles/sorting_algorithms.dir/106-bitonic_sort.c.o: C_COMPILER__sorting_algorithms_unscanned_Debug /Users/macbookpro/Desktop/sorting_algorithms/106-bitonic_sort.c || cmake_object_order_depends_target_sorting_algorithms
+  DEP_FILE = CMakeFiles/sorting_algorithms.dir/106-bitonic_sort.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot "/Applications/Xcode 22.08.19.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk" -fcolor-diagnostics
+  INCLUDES = -I/Users/macbookpro/Desktop/sorting_algorithms/.
+  OBJECT_DIR = CMakeFiles/sorting_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sorting_algorithms.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sorting_algorithms
@@ -113,7 +120,7 @@ build CMakeFiles/sorting_algorithms.dir/tests/2-main.c.o: C_COMPILER__sorting_al
 #############################################
 # Link the executable sorting_algorithms
 
-build sorting_algorithms: C_EXECUTABLE_LINKER__sorting_algorithms_Debug CMakeFiles/sorting_algorithms.dir/print_array.c.o CMakeFiles/sorting_algorithms.dir/print_list.c.o CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o CMakeFiles/sorting_algorithms.dir/tests/0-main.c.o CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o CMakeFiles/sorting_algorithms.dir/tests/1-main.c.o CMakeFiles/sorting_algorithms.dir/2-selection_sort.c.o CMakeFiles/sorting_algorithms.dir/tests/2-main.c.o
+build sorting_algorithms: C_EXECUTABLE_LINKER__sorting_algorithms_Debug CMakeFiles/sorting_algorithms.dir/print_array.c.o CMakeFiles/sorting_algorithms.dir/print_list.c.o CMakeFiles/sorting_algorithms.dir/0-bubble_sort.c.o CMakeFiles/sorting_algorithms.dir/tests/0-main.c.o CMakeFiles/sorting_algorithms.dir/1-insertion_sort_list.c.o CMakeFiles/sorting_algorithms.dir/tests/1-main.c.o CMakeFiles/sorting_algorithms.dir/2-selection_sort.c.o CMakeFiles/sorting_algorithms.dir/tests/2-main.c.o CMakeFiles/sorting_algorithms.dir/106-bitonic_sort.c.o
   FLAGS = -g -isysroot "/Applications/Xcode 22.08.19.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
   OBJECT_DIR = CMakeFiles/sorting_algorithms.dir
   POST_BUILD = :

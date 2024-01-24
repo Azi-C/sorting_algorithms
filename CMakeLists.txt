@@ -14,4 +14,5 @@ add_executable(sorting_algorithms
         1-insertion_sort_list.c
         tests/1-main.c
         2-selection_sort.c
-        tests/2-main.c)
+        tests/2-main.c
+        106-bitonic_sort.c)
