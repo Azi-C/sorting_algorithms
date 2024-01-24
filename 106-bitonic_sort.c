@@ -8,14 +8,14 @@
 
 void swap_ints(int *a, int *b);
 void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
-                   char flow);
+			char flow);
 void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
 void bitonic_sort(int *array, size_t size);
 
 /**
  * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @n: The first integer to swap.
+ * @m: The second integer to swap.
  */
 void swap_ints(int *n, int *m)
 {
@@ -34,7 +34,8 @@ void swap_ints(int *n, int *m)
  * @sequence: The size of the sequence to sort.
  * @flow: The direction to sort in.
  */
-void bitonic_merge(int *array, size_t size, size_t start, size_t sequence, char flow)
+void bitonic_merge(int *array, size_t size, size_t start, size_t sequence,
+			char flow)
 {
 	size_t idx, jump = sequence / 2;
 
