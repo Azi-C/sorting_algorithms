@@ -1,8 +1,9 @@
 #ifndef SORT_H
 #define SORT_H
-#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
+#define UP 0
+#define DOWN 1
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -32,4 +33,9 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
+void swap_ints(int *n, int *m);
+void bitonic_merge(int *array, size_t size, size_t start, size_t sequence,
+			char flow);
+void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
 #endif
